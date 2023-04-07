@@ -1,6 +1,6 @@
 
-const enterInter = setInterval(() = > {
-    for (let get_contrast of['Начать', 'Перейти\x20на\x20поле']) {
+const enterInter = setInterval(() => {
+    for (let get_contrast of ['Начать', 'Перейти\x20на\x20поле']) {
             const canvas_paste_layer_name = $('button:contains(\x22' + get_contrast + '\x22)');
             if (canvas_paste_layer_name['length']) {
                     clearInterval(enterInter),
@@ -9,7 +9,7 @@ const enterInter = setInterval(() = > {
             }
     }
 }, 0x12c);
-setInterval(() = > {
+setInterval(() => {
     location['reload']();
 }, 0xa * 0xea60),
 (this['webpackJsonppixel'] = this['webpackJsonppixel'] || [])['push']([
@@ -12359,7 +12359,7 @@ setInterval(() = > {
                                             const fOrmat_currency = $('<div\x20class=\x22box\x20alert\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22header\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22block\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22button\x22>Я\x20всё\x20понял,\x20извините</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>');
                                             $('.header', fOrmat_currency)['text'](gEt_contrast),
                                             $('.block', fOrmat_currency)['html'](cOnvert_to_decimal),
-                                            $('.button', fOrmat_currency)['on']('click', () = > fOrmat_currency['remove']()),
+                                            $('.button', fOrmat_currency)['on']('click', () => fOrmat_currency['remove']()),
                                             $('body')['append'](fOrmat_currency);
                                     }
                                     window['_api_'] = {
@@ -12395,7 +12395,7 @@ setInterval(() = > {
                                     function vAlidate_mac_address() {
                                             return Math['max']((sEt_animation_speed['cooldown'] - Date['now']()) / 0x3e8 | 0x0, 0x0);
                                     }
-                                    setInterval(() = > {
+                                    setInterval(() => {
                                             sEt_animation_speed['setCooldown'](vAlidate_mac_address());
                                     }, 0x3e8);
                                     const gEt_posterize = 0x3a98,
@@ -12426,13 +12426,13 @@ setInterval(() = > {
                                                     'color': '#d99323'
                                             }
                                     },
-                                    cAnvas_paste_replace_colors = Object['keys'](sEt_eraser_shape)['map'](sEt_canvas_ruler_unit = > +sEt_canvas_ruler_unit)['sort']((gEt_canvas_filter_channel, cAnvas_select_mask_invert) = > cAnvas_select_mask_invert - gEt_canvas_filter_channel);
+                                    cAnvas_paste_replace_colors = Object['keys'](sEt_eraser_shape)['map'](sEt_canvas_ruler_unit => +sEt_canvas_ruler_unit)['sort']((gEt_canvas_filter_channel, cAnvas_select_mask_invert) => cAnvas_select_mask_invert - gEt_canvas_filter_channel);
                                     let sEt_threshold = 0x0;
                                     const rEmove_tileset_tile_layer = {
                                             'NONE': 0x0,
                                             'SPEED': 0x3
                                     };
-                                    setInterval(() = > {
+                                    setInterval(() => {
                                             $('#totalSpeed')['text'](sEt_threshold),
                                             sEt_threshold = 0x0;
                                     }, 0x3e8);
@@ -12458,14 +12458,14 @@ setInterval(() = > {
                                                     this['placedPixels'] = rEsize_canvas('pla') || 0x0,
                                                     this['updateMast'](),
                                                     $(document['body'])['append'](this['element']),
-                                                    $('#useSpeedup')['click'](() = > {
+                                                    $('#useSpeedup')['click'](() => {
                                                             this['useSpeed']();
                                                     }),
-                                                    $('#showInfo')['click'](() = > {
+                                                    $('#showInfo')['click'](() => {
                                                             $('#showInfo')['toggleClass']('active'),
                                                             $('.box.info')['toggle']();
                                                     }),
-                                                    $('.showSubblockButton')['click'](() = > {
+                                                    $('.showSubblockButton')['click'](() => {
                                                             $('.showSubblockButton')['toggleClass']('active'),
                                                             $('.subblock')['toggle']();
                                                     }),
